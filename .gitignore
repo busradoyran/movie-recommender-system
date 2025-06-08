@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Python test cache
+.pytest_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# OS-specific
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Environment files
+.env             # If you ever use dotenv for config or secrets
+
+# Jupyter Notebook output (if you use nbconvert etc.)
+*.nbconvert.ipynb
+
+# Common data file formats
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.parquet
+*.feather
